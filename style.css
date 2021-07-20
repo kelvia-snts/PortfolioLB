@@ -9,10 +9,7 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   filter: invert(14%);
-  
 }
-
-
 
 .kelvia {
   width: 57px;
@@ -34,7 +31,7 @@ header {
 }
 
 .Iam {
-  width: 317px;
+  width: 394px;
   height: 122px;
   margin: 4px 363px 4px 192px;
   font-family: Montserrat;
@@ -48,7 +45,7 @@ header {
 }
 
 .Desenvolvedora-Web-Full {
-  width: 356px;
+  width: 375px;
   height: 29px;
   margin: 6px 324px 12px 192px;
   font-family: Montserrat;
@@ -62,7 +59,7 @@ header {
 }
 
 .Apaixonada-por-tecno {
-  width: 338px;
+  width: 390px;
   height: 19px;
   margin: 12px 342px 16px 192px;
   font-family: Montserrat;
@@ -86,7 +83,7 @@ header {
   height: 19px;
   margin: 3px 32px 142px 324px;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -102,14 +99,13 @@ header {
   height: 19px;
   margin: 3px 33px 142px 32px;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.22px;
   text-align: center;
-  color: var(--grey-green);
   cursor: pointer;
 }
 
@@ -117,15 +113,14 @@ header {
   width: 61px;
   height: 19px;
   margin: 3px 0 142px 33px;
-  font-family: Montserrat;
-  font-size: 16px;
+  font-family:  Montserrat ;
+  font-size: 26px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.22px;
   text-align: center;
-  color: var(--grey-green);
   cursor: pointer;
 }
 
@@ -193,7 +188,8 @@ header {
   width: 305px;
   height: 305px;
   margin: 0 103px 0 0;
-  filter: invert(14%);
+  border-radius: 8px;
+  filter: invert(10%);
 }
 
 .title-about-me {
@@ -225,13 +221,14 @@ header {
   color: #ffffff;
 }
 
-.tecnology{
+.tecnologys{
+  margin-top: 50px;
   width: 400px;
   margin-left: 95px;
   text-align: center;
 }
 
-.NodeJS {
+.tecnology {
   width: 53px;
   height: 18px;
   margin: 26px 16px 32px 5px;
