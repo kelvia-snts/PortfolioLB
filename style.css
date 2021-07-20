@@ -1,0 +1,254 @@
+* {
+  margin: auto;
+}
+
+header {
+  height: 585px;
+  padding: 19px 49px 164px 32px;
+  background-image: url(assets/recife.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(14%);
+}
+
+.kelvia {
+  width: 57px;
+  height: 25px;
+  margin: 0 192px 139px 0;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #ffffff;
+}
+
+.inforHeader {
+  margin-top: 214px;
+  padding: 0;
+}
+
+.Iam {
+  width: 394px;
+  height: 122px;
+  margin: 4px 363px 4px 192px;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.29px;
+  color: #ffffff;
+}
+
+.Desenvolvedora-Web-Full {
+  width: 375px;
+  height: 29px;
+  margin: 6px 324px 12px 192px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+
+.Apaixonada-por-tecno {
+  width: 390px;
+  height: 19px;
+  margin: 12px 342px 16px 192px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #ffffff;
+}
+
+.nav {
+  position: fixed;
+  top: 22px;
+  right: 50px;
+}
+
+.quem-sou {
+  width: 80px;
+  height: 19px;
+  margin: 3px 32px 142px 324px;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.projetos {
+  width: 64px;
+  height: 19px;
+  margin: 3px 33px 142px 32px;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contato {
+  width: 61px;
+  height: 19px;
+  margin: 3px 0 142px 33px;
+  font-family:  Montserrat ;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 90px;
+  width: 30px;
+  height: 410px;
+}
+
+.Group-10-Copy {
+  width: 30px;
+  height: 27px;
+  margin: 139px 219px 4px 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.Group-3-Copy {
+  width: 30px;
+  height: 30px;
+  margin: 24px 219px 24px 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.Fill-1-Copy {
+  width: 30px;
+  height: 30px;
+  margin: 24px 219px 23px 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.Fill-1-Copy-2 {
+  width: 30px;
+  height: 30px;
+  margin: 4px 219px 19px 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.Group-8-Copy {
+  width: 30px;
+  height: 30px;
+  margin: 17px 219px 0 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* Second section */
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  height: 438px;
+  padding: 69px 221px 64px 283px;
+  background-color:rgba(76, 87, 78, 0.41);
+  
+}
+
+.photo-about-me {
+  width: 305px;
+  height: 305px;
+  margin: 0 103px 0 0;
+  border-radius: 8px;
+  filter: invert(10%);
+}
+
+.title-about-me {
+  width: 238px;
+  height: 52px;
+  margin: 0 29px 20px 103px;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+
+.text-about-me {
+  width: 368px;
+  height: 122px;
+  margin: 20px 0 26px 103px;
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #ffffff;
+}
+
+.tecnologys{
+  margin-top: 50px;
+  width: 400px;
+  margin-left: 95px;
+  text-align: center;
+}
+
+.tecnology {
+  width: 53px;
+  height: 18px;
+  margin: 26px 16px 32px 5px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #ffffff;
+}
+
+.btn-cv {
+  width: 140px;
+  height: 30px;
+  margin: 32px 12px 5px 103px;
+  padding: 5px 30px 7px 31px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background-color: #167c13b7;
+  cursor: pointer;
+}
