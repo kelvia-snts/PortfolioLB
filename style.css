@@ -374,6 +374,7 @@ header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   background-color: #063447;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* Contrata-me */
