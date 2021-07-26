@@ -258,7 +258,7 @@ header {
 
 #knowledgeSection {
   background-color: #4eaccf;
-  height: 418px;
+  height: 318px;
   padding: 46px 317px 80px 281px;
   background-color: #4eaccf;
   display: flex;
@@ -339,6 +339,89 @@ header {
   line-height: normal;
   letter-spacing: -0.22px;
   color: #ffffff;
+}
+
+/* Seção Educação */
+
+#EducationSection{
+  height: 350px;
+  padding: 46px 138px 68px 137px;
+  background-color: #292929;
+}
+
+#EducationSection h1{
+  width: 262px;
+  height: 50px;
+  margin: 0 5px 12px 0;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #292929;
+}
+
+#EducationSection h2{
+  width: 128px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#EducationSection p{
+  width: 267px;
+  height: 122px;
+  margin: 16px 0 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #292929;
+}
+
+#institutions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxEducationOne{
+  width: 327px;
+  height: 185px;
+  margin: 29px 12px 0 0;
+  padding: 33px 27px 51px 33px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.boxEducationTwo{
+  width: 327px;
+  height: 185px;
+  margin: 29px 12px 0;
+  padding: 33px 27px 51px 33px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+
+.boxEducationThree{
+  width: 327px;
+  height: 185px;
+  margin: 29px 0 0 12px;
+  padding: 33px 27px 51px 33px;
+  border-radius: 8px;
+  background-color: #ffffff;
 }
 
 /* Seção de projetos */
