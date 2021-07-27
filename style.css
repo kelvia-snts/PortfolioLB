@@ -258,7 +258,7 @@ header {
 
 #knowledgeSection {
   background-color: #4eaccf;
-  height: 418px;
+  height: 318px;
   padding: 46px 317px 80px 281px;
   background-color: #4eaccf;
   display: flex;
@@ -341,19 +341,101 @@ header {
   color: #ffffff;
 }
 
+/* Seção Educação */
+
+#EducationSection{
+  height: 350px;
+  padding: 46px 138px 68px 137px;
+  background-color: #292929;
+}
+
+#EducationSection h1{
+  width: 262px;
+  height: 50px;
+  margin: 0 5px 12px 0;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #292929;
+  text-align: center;
+}
+
+#EducationSection h2{
+  width: 128px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#EducationSection p{
+  width: 267px;
+  height: 122px;
+  margin: 16px 0 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #292929;
+}
+
+#institutions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxEducationOne{
+  width: 327px;
+  height: 185px;
+  margin: 29px 12px 0 0;
+  padding: 33px 27px 51px 33px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.boxEducationTwo{
+  width: 327px;
+  height: 185px;
+  margin: 29px 12px 0;
+  padding: 33px 27px 51px 33px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.boxEducationThree{
+  width: 327px;
+  height: 185px;
+  margin: 29px 0 0 12px;
+  padding: 33px 27px 51px 33px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
 /* Seção de projetos */
 
 #ProjectsSection {
   width: 1340px;
   height: 1284px;
   background-color: #ffffff;
-  border: 1px solid black;
 }
 
-#ProjectsSection p{
+#ProjectsSection >p{
   width: 183px;
   height: 30px;
-  margin: 0 251px 42px 3px;
+  margin-top: 43px;
   font-family: Montserrat;
   font-size: 25px;
   font-weight: bold;
@@ -365,17 +447,177 @@ header {
   color: #4eaccf;
 }
 
-#ProjectsSection button {
+.btnProjectsSection {
   width: 150px;
-  height: 30px;
-  margin: 88px 288px 0 311px;
   padding: 5px 29px 7px;
+  margin: 30px 560px;
   border-radius: 8px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   background-color: #063447;
   color: #ffffff;
   cursor: pointer;
 }
+
+.labedditBox{
+  display: flex;
+  margin: 50px 0;
+  padding: 0 180px;
+}
+
+.labedditBox h1{
+  height: 32px;
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  color: #063447;
+}
+
+.labedditBox span{
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #063447;
+}
+
+.labedditBox img{
+  width: 312px;
+  height: 216px;
+  object-fit: contain;
+}
+
+.labedditDescription{
+  display: flex;
+  flex-direction: column;
+}
+
+.labedditDescription span{
+  width: 154px;
+  height: 25px;
+  margin: 32px 268px 13px 0;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #063447;
+}
+
+.labedditDescription p{
+  width: 368px;
+  height: 80px;
+  border: 1px solid black;
+  margin: 10px 0 16px 4px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  text-align: justify;
+  color: #063447;
+}
+
+.labedditDescription button{
+  width: 140px;
+  height: 30px;
+  margin: 3px 227px 0 -45px;
+  padding: 5px 23px 7px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #4eaccf;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.labexBox{
+  display: flex;
+  border: 1px solid black;
+}
+
+.labexBox img{
+  width: 311px;
+  height: 215px;
+  margin: 118px 80px 99px 100px;
+  object-fit: contain;
+}
+
+.labexDescription{
+  display: flex;
+  flex-direction: column;
+  margin: 118px 80px 99px 200px
+}
+
+.labexDescription h1{
+  width: 144px;
+  height: 52px;
+  margin: 0 0 0 224px;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  text-align: right;
+  color: #063447;
+}
+
+.labexDescription span {
+  height: 15px;
+  margin: 12px 0 23px 264px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-align: right;
+  color: #063447;
+}
+
+.labexDescription p{
+  width: 368px;
+  height: 70px;
+  border: 1px solid black;
+  margin: 13px 0 16px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  text-align: right;
+  color: #063447;
+}
+
+.labexDescription button{
+  width: 140px;
+  height: 30px;
+  margin: 16px 2px 0 226px;
+  padding: 5px 23px 7px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #4eaccf;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
 
 /* Contrata-me */
 
