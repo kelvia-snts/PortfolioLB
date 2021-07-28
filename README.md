@@ -6,6 +6,8 @@
 * CSS
 * JavaScript
 
+### [Vídeo Loom](https://www.loom.com/share/6fdadcfefa2f4f83980a6ae004ef6404)
+
 ## Imagens
 
 ![image](https://user-images.githubusercontent.com/69319634/126697862-7b52413e-4154-4518-b834-fe6cde8d52b0.png)

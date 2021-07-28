@@ -196,7 +196,7 @@ header {
   cursor: pointer;
 }
 
-/* Second section */
+/* Seção Sobre Mim*/
 
 #about-me {
   display: flex;
@@ -241,14 +241,14 @@ header {
   color: #ffffff;
 }
 
-.tecnologys {
+.technologies {
   margin-top: 40px;
   width: 400px;
   text-align: center;
   margin-left: -210px;
 }
 
-.tecnology {
+.technology {
   width: 53px;
   height: 18px;
   margin: 26px 16px 32px 5px;
@@ -536,7 +536,6 @@ header {
 .projectBoxDescription p{
   width: 368px;
   height: 80px;
-  border: 1px solid rgb(214, 206, 206);
   margin: 10px 0 16px 4px;
   font-family: Montserrat;
   font-size: 12px;
@@ -610,7 +609,6 @@ header {
 .labexDescription p{
   width: 368px;
   height: 70px;
-  border: 1px solid rgb(209, 199, 199);
   margin: 13px 0 16px;
   font-family: Montserrat;
   font-size: 12px;
