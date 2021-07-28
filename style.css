@@ -2,8 +2,18 @@
   margin: auto;
 }
 
+.top{
+  width: 50px;
+  position: fixed;
+  right: 3vw;
+  top: 90vh;
+  cursor: pointer;
+}
+
 header {
   height: 60px;
+  width: 94vw;
+  display: flex;
 }
 
 #main {
@@ -76,10 +86,19 @@ header {
   color: #ffffff;
 }
 
-.nav {
-  position: fixed;
-  top: 22px;
-  right: 50px;
+.nav{
+  margin: -5px 2px 0 210px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 26px;
+}
+
+.nav a:active{
+  color: #4eaccf;
 }
 
 .quem-sou {
@@ -177,7 +196,7 @@ header {
   cursor: pointer;
 }
 
-/* Second section */
+/* Seção Sobre Mim*/
 
 #about-me {
   display: flex;
@@ -222,14 +241,14 @@ header {
   color: #ffffff;
 }
 
-.tecnologys {
+.technologies {
   margin-top: 40px;
   width: 400px;
   text-align: center;
   margin-left: -210px;
 }
 
-.tecnology {
+.technology {
   width: 53px;
   height: 18px;
   margin: 26px 16px 32px 5px;
@@ -458,13 +477,13 @@ header {
   cursor: pointer;
 }
 
-.labedditBox{
+.projectBox{
   display: flex;
   margin: 50px 0;
   padding: 0 180px;
 }
 
-.labedditBox h1{
+.projectBox h1{
   height: 32px;
   margin: 0;
   font-family: Montserrat;
@@ -477,7 +496,7 @@ header {
   color: #063447;
 }
 
-.labedditBox span{
+.projectBox span{
   height: 15px;
   font-family: Montserrat;
   font-size: 21px;
@@ -489,18 +508,18 @@ header {
   color: #063447;
 }
 
-.labedditBox img{
+.projectBox img{
   width: 312px;
   height: 216px;
   object-fit: contain;
 }
 
-.labedditDescription{
+.projectBoxDescription{
   display: flex;
   flex-direction: column;
 }
 
-.labedditDescription span{
+.projectBoxDescription span{
   width: 154px;
   height: 25px;
   margin: 32px 268px 13px 0;
@@ -514,10 +533,9 @@ header {
   color: #063447;
 }
 
-.labedditDescription p{
+.projectBoxDescription p{
   width: 368px;
   height: 80px;
-  border: 1px solid black;
   margin: 10px 0 16px 4px;
   font-family: Montserrat;
   font-size: 12px;
@@ -530,7 +548,7 @@ header {
   color: #063447;
 }
 
-.labedditDescription button{
+.projectBoxDescription button{
   width: 140px;
   height: 30px;
   margin: 3px 227px 0 -45px;
@@ -544,7 +562,6 @@ header {
 
 .labexBox{
   display: flex;
-  border: 1px solid black;
 }
 
 .labexBox img{
@@ -592,7 +609,6 @@ header {
 .labexDescription p{
   width: 368px;
   height: 70px;
-  border: 1px solid black;
   margin: 13px 0 16px;
   font-family: Montserrat;
   font-size: 12px;
