@@ -12,23 +12,21 @@
 
 header {
   height: 60px;
-  width: 94vw;
   display: flex;
 }
 
 #main {
-  height: 581px;
-  padding: 19px 49px 164px 32px;
+  height: 766px;
   background-image: url(assets/recife.jpeg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  filter: invert(14%);
+  filter: invert(15%);
 }
 
 .kelvia {
   width: 57px;
   height: 25px;
-  margin: 0 192px 139px 0;
+  margin: 19px 192px 139px 32px;
   font-family: Montserrat;
   font-size: 21px;
   font-weight: bold;
@@ -39,13 +37,28 @@ header {
   color: #ffffff;
 }
 
-.inforHeader {
+.nav{
+  margin: 22px 2px 0 210px;
+}
+
+.nav a{
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.nav a:active{
+  color: #4eaccf;
+}
+
+.informMain {
   margin-top: 214px;
+  margin-left: 46px;
   padding: 0;
 }
 
 .Iam {
-  width: 394px;
   height: 122px;
   margin: 4px 363px 4px 192px;
   font-family: Montserrat;
@@ -58,7 +71,7 @@ header {
   color: #ffffff;
 }
 
-.Desenvolvedora-Web-Full {
+.profession {
   width: 375px;
   height: 29px;
   margin: 6px 324px 12px 192px;
@@ -72,7 +85,7 @@ header {
   color: #ffffff;
 }
 
-.Apaixonada-por-tecno {
+.personalDescription {
   width: 390px;
   height: 19px;
   margin: 12px 342px 16px 192px;
@@ -84,21 +97,6 @@ header {
   line-height: normal;
   letter-spacing: -0.22px;
   color: #ffffff;
-}
-
-.nav{
-  margin: -5px 2px 0 210px;
-}
-
-.nav a{
-  text-decoration: none;
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 26px;
-}
-
-.nav a:active{
-  color: #4eaccf;
 }
 
 .quem-sou {
@@ -122,13 +120,14 @@ header {
   height: 19px;
   margin: 3px 33px 142px 32px;
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.22px;
   text-align: center;
+  color: #4eaccf;
   cursor: pointer;
 }
 
@@ -137,66 +136,53 @@ header {
   height: 19px;
   margin: 3px 0 142px 33px;
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.22px;
   text-align: center;
+  color: #4eaccf;
   cursor: pointer;
 }
 
-.redes {
+.networks {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   position: absolute;
-  top: 90px;
+  top: 223px;
+  left: 30px;
   width: 30px;
-  height: 410px;
 }
 
 .linkedin {
-  width: 30px;
-  height: 27px;
-  margin: 139px 219px 4px 0;
-  object-fit: contain;
+  margin: 0px 219px 4px 0;
   cursor: pointer;
 }
 
 .whatsapp {
-  width: 30px;
-  height: 30px;
   margin: 24px 219px 24px 0;
-  object-fit: contain;
   cursor: pointer;
 }
 
 .github {
-  width: 30px;
-  height: 30px;
   margin: 24px 219px 23px 0;
-  object-fit: contain;
   cursor: pointer;
 }
 
 .twitter {
-  width: 30px;
-  height: 30px;
   margin: 4px 219px 19px 0;
-  object-fit: contain;
   cursor: pointer;
 }
 
 .instagram {
-  width: 30px;
-  height: 30px;
   margin: 17px 219px 0 0;
-  object-fit: contain;
   cursor: pointer;
 }
 
-/* Seção Sobre Mim*/
+/* Seção - Sobre Mim*/
 
 #about-me {
   display: flex;
@@ -273,7 +259,7 @@ header {
   cursor: pointer;
 }
 
-/* O que faço */
+/* Seção - O que faço */
 
 #knowledgeSection {
   background-color: #4eaccf;
@@ -333,7 +319,7 @@ header {
 }
 
 .frontDescription {
-  width: 247px;
+  width: 277px;
   height: 133px;
   margin: 20px 36px 0 0;
   font-family: Montserrat;
@@ -344,6 +330,8 @@ header {
   line-height: normal;
   letter-spacing: -0.22px;
   color: #ffffff;
+  text-align: justify;
+  
 }
 
 .backDescription {
@@ -358,9 +346,10 @@ header {
   line-height: normal;
   letter-spacing: -0.22px;
   color: #ffffff;
+  text-align: justify;
 }
 
-/* Seção Educação */
+/* Seção - Educação */
 
 #EducationSection{
   height: 350px;
@@ -443,7 +432,7 @@ header {
   background-color: #ffffff;
 }
 
-/* Seção de projetos */
+/* Seção - projetos */
 
 #ProjectsSection {
   width: 1340px;
@@ -633,15 +622,14 @@ header {
   font-weight: bold;
 }
 
-
-
-/* Contrata-me */
+/* Seção - Contrate-me */
 
 #hireMeSection {
-  height: 397px;
+  height: 380px;
   padding: 54px 378px 52px 379px;
   background-color: #063447;
 }
+
 #hireMeSection h1 {
   width: 290px;
   height: 52px;
@@ -658,7 +646,6 @@ header {
 }
 
 #hireMeSection p {
-  width: 523px;
   height: 110px;
   font-family: Montserrat;
   font-size: 18px;
@@ -672,44 +659,37 @@ header {
 }
 
 #hireMeSection div{
-/*   border: 1px solid black; */
-  height: 48px;
-  width: 50vw;
-  margin: 50px -25px ;
+  display: flex;
+  margin-top: 54px;
 }
 
 .linkedin-copy {
   width: 40px;
   height: 37px;
-  margin: 54px 30px 3px 102px;
   object-fit: contain;
 }
 
 .whatsapp-copy {
   width: 40px;
   height: 40px;
-  margin: 54px 30px 0;
   object-fit: contain;
 }
 
 .github-copy {
   width: 40px;
   height: 38px;
-  margin: 54px 30px 2px;
   object-fit: contain;
 }
 
 .twitter-copy{
   width: 40px;
   height: 33px;
-  margin: 58px 30px 3px;
   object-fit: contain;
 }
 
 .instagram-copy{
   width: 39px;
   height: 39px;
-  margin: 51px 102px 4px 30px;
   object-fit: contain;
 }
 
