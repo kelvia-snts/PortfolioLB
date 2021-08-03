@@ -2,7 +2,7 @@
   margin: auto;
 }
 
-.top{
+.top {
   width: 50px;
   position: fixed;
   right: 3vw;
@@ -37,18 +37,18 @@ header {
   color: #ffffff;
 }
 
-.nav{
+.nav {
   margin: 22px 2px 0 210px;
 }
 
-.nav a{
+.nav a {
   text-decoration: none;
   font-family: Montserrat;
   font-size: 26px;
   color: #ffffff;
 }
 
-.nav a:active{
+.nav a:active {
   color: #4eaccf;
 }
 
@@ -331,7 +331,6 @@ header {
   letter-spacing: -0.22px;
   color: #ffffff;
   text-align: justify;
-  
 }
 
 .backDescription {
@@ -351,13 +350,13 @@ header {
 
 /* Seção - Educação */
 
-#EducationSection{
+#EducationSection {
   height: 350px;
   padding: 46px 138px 68px 137px;
   background-color: #292929;
 }
 
-#EducationSection h1{
+#EducationSection h1 {
   width: 262px;
   height: 50px;
   margin: 0 5px 12px 0;
@@ -372,7 +371,7 @@ header {
   text-align: center;
 }
 
-#EducationSection h2{
+#EducationSection h2 {
   width: 128px;
   height: 30px;
   font-family: Montserrat;
@@ -386,7 +385,7 @@ header {
   color: #ffffff;
 }
 
-#EducationSection p{
+#EducationSection p {
   width: 267px;
   height: 122px;
   margin: 16px 0 0;
@@ -400,12 +399,12 @@ header {
   color: #292929;
 }
 
-#institutions{
+#institutions {
   display: flex;
   justify-content: space-between;
 }
 
-.boxEducationOne{
+.boxEducationOne {
   width: 327px;
   height: 185px;
   margin: 29px 12px 0 0;
@@ -414,7 +413,7 @@ header {
   background-color: #ffffff;
 }
 
-.boxEducationTwo{
+.boxEducationTwo {
   width: 327px;
   height: 185px;
   margin: 29px 12px 0;
@@ -423,7 +422,7 @@ header {
   background-color: #ffffff;
 }
 
-.boxEducationThree{
+.boxEducationThree {
   width: 327px;
   height: 185px;
   margin: 29px 0 0 12px;
@@ -440,7 +439,7 @@ header {
   background-color: #ffffff;
 }
 
-#ProjectsSection >p{
+#ProjectsSection > p {
   width: 183px;
   height: 30px;
   margin-top: 43px;
@@ -458,7 +457,7 @@ header {
 .btnProjectsSection {
   width: 150px;
   padding: 5px 29px 7px;
-  margin: 30px 560px;
+  margin: 30px 589px;
   border-radius: 8px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   background-color: #063447;
@@ -466,13 +465,13 @@ header {
   cursor: pointer;
 }
 
-.projectBox{
+.projectBox {
   display: flex;
   margin: 50px 0;
   padding: 0 180px;
 }
 
-.projectBox h1{
+.projectBox h1 {
   height: 32px;
   margin: 0;
   font-family: Montserrat;
@@ -485,7 +484,7 @@ header {
   color: #063447;
 }
 
-.projectBox span{
+.projectBox span {
   height: 15px;
   font-family: Montserrat;
   font-size: 21px;
@@ -497,18 +496,18 @@ header {
   color: #063447;
 }
 
-.projectBox img{
+.projectBox img {
   width: 312px;
   height: 216px;
   object-fit: contain;
 }
 
-.projectBoxDescription{
+.projectBoxDescription {
   display: flex;
   flex-direction: column;
 }
 
-.projectBoxDescription span{
+.projectBoxDescription span {
   width: 154px;
   height: 25px;
   margin: 32px 268px 13px 0;
@@ -522,7 +521,7 @@ header {
   color: #063447;
 }
 
-.projectBoxDescription p{
+.projectBoxDescription p {
   width: 368px;
   height: 80px;
   margin: 10px 0 16px 4px;
@@ -537,7 +536,7 @@ header {
   color: #063447;
 }
 
-.projectBoxDescription button{
+.projectBoxDescription button {
   width: 140px;
   height: 30px;
   margin: 3px 227px 0 -45px;
@@ -549,24 +548,24 @@ header {
   font-weight: bold;
 }
 
-.labexBox{
+.labexBox {
   display: flex;
 }
 
-.labexBox img{
+.labexBox img {
   width: 311px;
   height: 215px;
   margin: 118px 80px 99px 100px;
   object-fit: contain;
 }
 
-.labexDescription{
+.labexDescription {
   display: flex;
   flex-direction: column;
-  margin: 118px 80px 99px 200px
+  margin: 118px 80px 99px 200px;
 }
 
-.labexDescription h1{
+.labexDescription h1 {
   width: 144px;
   height: 52px;
   margin: 0 0 0 224px;
@@ -595,7 +594,7 @@ header {
   color: #063447;
 }
 
-.labexDescription p{
+.labexDescription p {
   width: 368px;
   height: 70px;
   margin: 13px 0 16px;
@@ -610,7 +609,7 @@ header {
   color: #063447;
 }
 
-.labexDescription button{
+.labexDescription button {
   width: 140px;
   height: 30px;
   margin: 16px 2px 0 226px;
@@ -658,7 +657,7 @@ header {
   color: #ffffff;
 }
 
-#hireMeSection div{
+#hireMeSection div {
   display: flex;
   margin-top: 54px;
 }
@@ -681,13 +680,13 @@ header {
   object-fit: contain;
 }
 
-.twitter-copy{
+.twitter-copy {
   width: 40px;
   height: 33px;
   object-fit: contain;
 }
 
-.instagram-copy{
+.instagram-copy {
   width: 39px;
   height: 39px;
   object-fit: contain;
@@ -715,7 +714,3 @@ footer p {
   color: #ffffff;
   padding: 28px 0;
 }
-
-
-
-
